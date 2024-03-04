@@ -1,0 +1,87 @@
+html {
+  zoom: 100%;
+  touch-action: manipulation;
+  scroll-snap-type: y proximity;
+}
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+img,
+audio {
+  display: block;
+  margin: auto;
+}
+audio {
+  width: 88vw;
+  border-top-left-radius: 5%;
+  margin-top: 25px;
+}
+img {
+  border-radius: 5px;
+  margin-top: 250px;
+  height: 35vh;
+  position: relative;
+  bottom: -15px;
+  box-shadow: 10px 10px 10px rgb(166, 92, 168);
+}
+audio::-webkit-media-controls-panel {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+audio::-webkit-media-controls-play-button {
+  background-color: rgb(127, 33, 148);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:active {
+  background-color: rgb(182, 182, 182);
+}
+section {
+  scroll-snap-align: start;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.Josylviopng {
+  margin-top: 500px;
+  position: relative;
+  top: -225px;
+}
+.Josylvioaudio {
+  position: relative;
+  top: -240px;
+}
+.alibpng {
+  margin-bottom: 500px;
+}
+
+.alibaudio {
+  position: relative;
+  top: -500px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: 270px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(65, 63, 63);
+}
+.lijpe {
+  margin-bottom: 10px;
+}
+.Alih {
+  margin-bottom: 10px;
+}
